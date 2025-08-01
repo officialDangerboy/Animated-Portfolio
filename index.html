@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Portfolio</title>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Video Container -->
+  <div id="vantaBg">
+    <video autoplay muted loop playsinline id="bgVideo">
+      <source src="video.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <h1 onclick="home()">Anonymous</h1>
+    </div>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#home" onclick="home()">Home</a></li>
+        <li><a href="#about" onclick="about()">About</a></li>
+        <li><a href="#projects" onclick="projects()">Team</a></li>
+        <li><a href="#contact" onclick="contack()">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger bi bi-list"></div>
+  </header>
+
+  <!-- Sidebar Navigation -->
+  <div class="sideBar">
+    <a href="#home" onclick="home()"><h1>Home</h1></a>
+    <a href="#about" onclick="about()"><h1>About</h1></a>
+    <a href="#projects" onclick="project()"><h1>Team</h1></a>
+    <a href="#contact" onclick="contact()"><h1>Contacts</h1></a>
+  </div>
+
+  <!-- Main Marquee Section -->
+  <div class="main">
+    <!-- Repeating Marquee Lines -->
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+    <div class="marquee"><h1>We Are Anonymous</h1><i class="bi bi-arrow-left"></i></div>
+  </div>
+
+  <!-- Section Wrapper -->
+  <section>
+
+    <!-- Home Section -->
+    <div id="home">
+      <div class="homeCard">
+        <h1 class="hey">Hey</h1>
+        <h1 class="animation">Welcome</h1>
+        <h1 class="str">Stranger</h1>
+
+        <div class="btns">
+          <div class="button">
+            <button onclick="about()">Know about us <i class="bi bi-arrow-up-right"></i></button>
+          </div>
+
+          <div class="social">
+            <div class="social-icons"><a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a></div>
+            <div class="social-icons"><a href="#" target="_blank"><i class="bi bi-instagram"></i></a></div>
+            <div class="social-icons"><a href="#" target="_blank"><i class="bi bi-github"></i></a></div>
+            <div class="social-icons"><a href="#" target="_blank"><i class="bi bi-telegram"></i></a></div>
+            <div class="social-icons"><a href="#" target="_blank"><i class="bi bi-linkedin"></i></a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heroSec">
+        <div class="image"><div class="img"></div></div>
+        <div class="imgTitle">
+          <div class="h1"><h1>We Are Anonymous</h1></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+      <div class="about">
+        <div class="bg">
+
+          <!-- Headings -->
+          <div class="aboutHeading">
+            <h1><i class="bi bi-incognito"></i> About Stranger Anonymous</h1>
+            <h1><i class="bi bi-person-shield"></i> How to Stay Safe from Hackers</h1>
+          </div>
+
+          <!-- Paragraphs -->
+          <div class="aboutPara">
+            <p>We are a collective of ethical minds united against digital threats.</p>
+            <p><i class="bi bi-shield-lock"></i> Our mission is to spread awareness and defend users from online exploitation.</p>
+            <p><i class="bi bi-eye-slash"></i> We value privacy and anonymity — your identity is your power.</p>
+            <p><i class="bi bi-key"></i> Use strong, unique passwords for every account.</p>
+            <p><i class="bi bi-phone-lock"></i> Enable two-factor authentication (2FA) wherever possible.</p>
+            <p><i class="bi bi-link-45deg"></i> Never click unknown or suspicious links.</p>
+            <p><i class="bi bi-wifi-off"></i> Avoid public Wi-Fi without a trusted VPN.</p>
+            <p><i class="bi bi-envelope-exclamation"></i> Don’t trust emails asking for credentials or personal data.</p>
+            <p><i class="bi bi-usb-plug"></i> Avoid plugging unknown USB drives into your system.</p>
+            <p><i class="bi bi-laptop"></i> Keep your system and antivirus software updated.</p>
+            <p><i class="bi bi-lock-fill"></i> Always log out after accessing your account on shared devices.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+      <div class="section-title"><h1>Our Team</h1></div>
+    
+      <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <div class="client-card">
+        <div class="cImg cImg1"></div>
+        <h2>John Doe</h2>
+        <p>Ethical hacker with 5+ years in cybersecurity.</p>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="client-card">
+        <div class="cImg cImg2"></div>
+        <h2>Jane Smith</h2>
+        <p>OSINT specialist with expertise in social data mining.</p>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="client-card">
+        <div class="cImg cImg3"></div>
+        <h2>Mike Johnson</h2>
+        <p>Network penetration tester and red team expert.</p>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="client-card">
+        <div class="cImg cImg4"></div>
+        <h2>Emily Davis</h2>
+        <p>Malware analyst with advanced reverse engineering skills.</p>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="client-card">
+        <div class="cImg cImg5"></div>
+        <h2>Chris Lee</h2>
+        <p>Bug bounty hunter with multiple hall-of-fame listings.</p>
+      </div>
+    </div>
+
+    <div class="swiper-slide">
+      <div class="client-card">
+        <div class="cImg cImg6"></div>
+        <h2>Riya Patel</h2>
+        <p>Web app security researcher and trainer.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    
+    <!-- Pagination (optional) -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+    <!-- Contact Section -->
+  <div id="contact">
+  <div class="join-wrapper">
+    <div class="join-team">
+      <h2>Join Our Team</h2>
+      <p>We're always looking for talented people. Fill out the form below:</p>
+      <form id="joinForm">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="position" placeholder="Position You're Applying For" required>
+        <textarea name="message" placeholder="Tell us why you'd be a great fit..." required></textarea>
+        <button>Apply Now</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
